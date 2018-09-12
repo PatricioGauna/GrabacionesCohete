@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500i,700,900i');
+@import 'variables';
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+
+ body{
+ 	background-color:#e6ffff;
+ }
+.navbar-default{
+	background-color: rgba(230, 255, 255, 0.7);
+	border-bottom: 2px solid #4dffff;
+	@media screen and (max-width: 500px){
+	background-color: rgba(230, 255, 255, 1);
+
+	}
+	
+
+	.ion-social-instagram{
+	font-size: 20px;
+    }
+    .ion-social-facebook{
+	font-size: 20px;
+    }
+    }
+
+
+	.navbar-right{
+ 	font-family: $titulo;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 18px;
+	li{
+	 &:hover{
+	 	background-color: #00cccc;
+	 	opacity: 0.6;
+	 }
+	}
+
+	
+	}
+
+
+.navbar-brand{
+	padding-left: 20px;
+	padding: 5px 15px;
+	opacity: 1;
+	}
+
+
+
+
+.jumbotron{
+	background-image: url("C:/Users/Gauna/Documents/web%20design/Grabaciones%20Cohete/img/header.jpg");
+	background-repeat: no-repeat;
+    background-size: 100%;
+	padding: 200px 0;
+	margin: 0px;
+	@media screen and (max-width: 500px){
+	padding: 60px 0;
+	padding-top: 150px;
+	background-size: 200%;
+	margin-top: 30px;
+
+	}
+	h1{
+	font-family: $titulo;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 120px;
+	line-height: 100px;
+	max-width: 60%;
+	@media screen and (max-width: 500px){
+	margin-top: 20px;
+	font-size: 50px;
+	max-width: 60%;
+	line-height: 60px;
+	margin-left: 10px;
+	}
+	}
+	p{
+		display: inline-block;
+	}
+	.subtitulo{
+	margin-left: 15px;
+	font-family: $titulo;
+	font-weight: 400;
+	color: #006666;
+	display: inline-block;
+	
+
+	}
+	.btn{
+		background-color: rgba(230, 255, 255, 0);
+		border: 2px solid #006666;
+		color: #006666;
+		font-weight: 600;
+		@media screen and (max-width: 500px){
+			margin-left: 20px;
+			}
+		margin-left: 10px;
+		&:hover {
+			background-color: #006666;
+			color: white;
+		}
+
+	}
+}
+	
+	
+
+	.lanzamientos{
+		background-color:#e6ffff;
+		padding: 200px 0 100px 0;
+		align-items: center;
+		justify-content: center;
+		h2{
+		font-family: $titulo;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 64px;
+		max-width: 60%;	
+		width: 60%;
+		margin-left: 30px;
+		margin-bottom:50px;
+		border-top: 2px dashed black;
+		border-bottom: 2px dashed black;
+		@media screen and (max-width: 500px){
+			font-size: 40px;
+			max-width: 60%;
+			}
+		}
+		.btn{
+			margin-left: 125px;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+		}
+		.thumbnail{
+			align-items: center;
+			justify-content: center;
+			background-color:#e6ffff;
+			border: 0 !important;
+			h3{
+				text-align: center;
+				font-weight: 800;
+
+			}
+				
+			h4{
+				text-align: center;
+
+				
+			}
+	
+	}	
+	}
+
+	.calendario{
+		background-color:#e6ffff;
+		padding: 100px 0 200px 0;
+		align-items: center;
+		justify-content: center;
+
+		h2{
+		font-family: $titulo;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 64px;
+		max-width: 60%;	
+		margin-left: 30px;
+		margin-bottom:50px;
+		border-top: 2px dashed black;
+		border-bottom: 2px dashed black;
+		}
+		.list-group-item{
+			font-family: $titulo;
+			font-size: 400;
+			font-style: italic;
+			background-color: rgba(76, 175, 80, 0);
+			font-size: 24px;
+		}
+		
+		.active{
+			background-color: #76b7b1;
+			border: 0px;
+			&:hover {
+				background-color: #76b7b1;
+
+			}
+
+		}
+		}
+
+		.artistas{
+		background-color:#e6ffff;
+		padding: 100px 0 200px 0;
+		align-items: center;
+		justify-content: center;
+
+		h2{
+		font-family: $titulo;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 64px;
+		max-width: 60%;	
+		margin-left: 30px;
+		margin-bottom:50px;
+		border-top: 2px dashed black;
+		border-bottom: 2px dashed black;
+		}
+
+		.thumbnail{
+			background-color: black;
+			border: 0px;
+			padding: 0px;
+			margin: 15px  0px;
+			img{
+				width: 100%;
+				display: flex;
+
+				&:hover {
+					opacity: 0.2;
+					box-shadow:  0px 0px 5px 5px #006666;
+					
+					}
+					}
+
+				/*::after{
+						align-self: center;
+						content: 'Me destaparon el cerebro';
+    					vertical-align: middle;
+    					height: 24px;
+    					width: 300px;
+    					margin-right: 6px;
+    					float: center;
+    					color: white;
+    					font-size: 20px;
+    					font-family_: $titulo;
+    					font-weight: 500;
+    					opacity: 1;
+    					&:hover{
+    						opacity: 1;
+    					}
+				}*/
+			}
+			}
+		
+			
+
+		.contacto{
+		background-color:#e6ffff;
+		padding-bottom: 50px;
+		h3{
+		font-family: $titulo;
+		font-weight: 900;
+		font-style: italic;
+
+		}	
+		}
+
+
+
+	footer {
+  background-color:  #76b7b1; }
+  footer .redes {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #080808;
+    width: 100%;
+    font-family: $texto;
+    font-size: 25px;
+    font-weight: 300; }
+  footer li {
+    display: inline-block;
+    background-color: #CFD8DC;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.5s;
+    font-size: 30px;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+    @media (max-width: 480px) {
+      footer li {
+        margin: 0; } }
+  footer li:nth-child(1) {
+    background: #125688; }
+    footer li:nth-child(1) .ion-social-linkedin {
+      color: white;
+      font-size: 30px; }
+  footer li:nth-child(2) {
+    background: tomato; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+  footer p {
+    display: inline-block;
+    font-size: 17px;
+    font-family: "Ubuntu", sans-serif, sans-serif;
+    font-weight: 600; }
+    @media (max-width: 480px) {
+      footer p {
+        font-size: 14px;
+        margin-left: 5px; } }
+  footer .fondo {
+    background: #080808;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+    color: white; }
+/*
+.navbar-collapse.collapse{
+	height: 70px !important;
+	} */
+
