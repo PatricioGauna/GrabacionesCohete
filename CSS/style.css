@@ -26,10 +26,13 @@ body {
 .navbar-brand {
   padding-left: 20px;
   padding: 5px 15px;
-  opacity: 1; }
+  opacity: 1;
+  color: #141414;
+  font-weight: 800;
+  font-style: italic; }
 
 .jumbotron {
-  background-image: url("C:/Users/Gauna/Documents/web%20design/Grabaciones%20Cohete/img/header.jpg");
+  background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 200px 0;
